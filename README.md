@@ -1,6 +1,7 @@
 ## Folder structure
-Contracts are stored in `contracts` folder and clients interacting with them is stored in `clients` folder.
-Scripts in `migrations` folder is used to deploy contracts to blockchain 
+- `/contracts`: stores contracts
+- `clients`: stores clients interacting with contracts
+- `migrations`: stores scripts used to deploy contracts to eth blockchain
 
 ## Applications
 1. SimpleStorage: Store a value on blockchain
