@@ -1,11 +1,11 @@
 ## Folder structure
-- `/contracts`: stores contracts
-- `clients`: stores clients interacting with contracts
-- `migrations`: stores scripts used to deploy contracts to eth blockchain
+- `contracts/`: stores contracts
+- `clients/`: stores clients interacting with contracts
+- `migrations/`: stores scripts used to deploy contracts to eth blockchain
 
 ## Applications
-1. SimpleStorage: Store a value on blockchain
-2. PetAdoption: Adopt pet
+1. SimpleStorage: Store a value on blockchain [[contract](./contracts/01_SimpleStorage.sol)] [[client](./clients/01.js)]
+2. PetAdoption: Adopt pet [`contract`](./contracts/01_SimpleStorage.sol) [`client`](./clients/01.js)
 3. SimpleCoin: create a coin
 4. SimpleBank: create a central bank
 
