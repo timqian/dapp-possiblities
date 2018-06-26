@@ -1,0 +1,2 @@
+# .sol syntax highlighting on github; ref: https://github.com/ethereum/solidity/issues/2681
+*.sol linguist-language=Solidity
