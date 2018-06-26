@@ -1,7 +1,4 @@
-> Explore the possible usages of dapps
-
 ## Usage
-
 
 1. Install and start [Ganache (local, personal Ethereum blockchain)](https://truffleframework.com/ganache)
 1. Compile contracts
