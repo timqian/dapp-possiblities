@@ -7,4 +7,3 @@ module.exports = async function (callback) {
     await instance.set(8);
     console.log(await instance.get());
 }
-  

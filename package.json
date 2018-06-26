@@ -1,0 +1,17 @@
+{
+  "name": "dapp-posibilities",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "exec": "truffle exec",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timqian/dapp-playground.git"
+  },
+  "dependencies": {
+    "truffle": "^4.1.12"
+  }
+}

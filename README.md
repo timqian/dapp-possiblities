@@ -2,20 +2,20 @@
 
 ## Usage
 
-1. Install Truffle
-1. Install Ganache
+
+1. Install and start [Ganache (local, personal Ethereum blockchain)](https://truffleframework.com/ganache)
 1. Compile contracts
     ```bash
-    truffle compile
+    npm run compile
     ```
 1. Migrate contracts to local block chain
     ```bash
-    truffle migrate
+    npm run migrate
     ```
 1. Interact with contracts
     ```bash
-    truffle exec clients/01.js
-    truffle exec clients/02.js
+    npm run -- exec clients/01.js
+    npm run -- exec clients/02.js
     ...
     ```
 
@@ -30,7 +30,6 @@ Is migrations script necessary?
 
 compiler: http://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html#solcjs
 
-
 ## Readings
 - Web compiler `remix`: https://remix.ethereum.org/#version=builtin&optimize=false
 - Official solidity doc: http://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html
@@ -39,3 +38,4 @@ compiler: http://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html#sol
 - Awesome eth: https://github.com/btomashvili/awesome-ethereum
 - About security: https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md
 - Other p2p solutions: https://github.com/kgryte/awesome-peer-to-peer
+- solidity-baby-steps(might be a little outdated): https://github.com/fivedogit/solidity-baby-steps
