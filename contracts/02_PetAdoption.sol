@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract Adoption {
+contract PetAdoption {
     // define variable: address type array of length 16 
     // public variable have automatic getter methods
     address[16] public adopters;
