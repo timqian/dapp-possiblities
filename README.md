@@ -4,10 +4,10 @@
 - `migrations/`: stores scripts used to deploy contracts to eth blockchain
 
 ## Applications
-1. SimpleStorage: Store a value on blockchain [[contract](./contracts/01_SimpleStorage.sol)] [[client](./clients/01.js)]
-2. PetAdoption: Adopt pet [`contract`](./contracts/01_SimpleStorage.sol) [`client`](./clients/01.js)
-3. SimpleCoin: create a coin
-4. SimpleBank: create a central bank
+1. SimpleStorage: Store a value on blockchain [[`contract`](./contracts/01_SimpleStorage.sol) [`client`](./clients/01.js)]
+2. PetAdoption: Adopt pet [[`contract`](./contracts/02_PetAdoption.sol) [`client`](./clients/02.js)]
+3. SimpleCoin: create a coin [[`contract`](./contracts/03_SimpleCoin.sol) [`client`](./clients/03.js)]
+4. SimpleBank: create a central bank [[`contract`](./contracts/04_SimpleBank.sol) [`client`](./clients/04.js)]
 
 ## Deploy Contracts and test locally
 
