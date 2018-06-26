@@ -27,7 +27,7 @@
     ...
     ```
 
-## Readings
+## Good Readings
 - Web compiler `remix`: https://remix.ethereum.org/#version=builtin&optimize=false
 - Official solidity doc: http://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html
 - Learn X in Y minutes solidity: https://learnxinyminutes.com/docs/solidity/
