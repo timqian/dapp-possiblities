@@ -9,7 +9,7 @@
 3. SimpleCoin: create a coin for yourself[[`contract`](./contracts/03_SimpleCoin.sol) [`client`](./clients/03.js)]
 4. SimpleBank: create a central bank on blockchain [[`contract`](./contracts/04_SimpleBank.sol) [`client`](./clients/04.js)]
 5. CrowdFund: A crowdfunding example (broadly similar to Kickstarter) [[`contract`](./contracts/05_CrowdFund.sol) [`client`](./clients/05.js)]
-6. Contnet Manage System [TODO]
+6. Content Management System [TODO]
 
 ## Deploy Contracts and test locally
 
