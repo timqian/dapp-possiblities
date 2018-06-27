@@ -9,13 +9,10 @@ contract SimpleBank {
     // but data is still viewable to other parties on blockchain
     mapping (address => uint) private balances;
 
-    // 'public' makes externally readable (not writeable) by users or contracts
     address public owner;
 
-    // Events - publicize actions to external listeners
     event LogDepositMade(address accountAddress, uint amount);
 
-    // Constructor, can receive one or many variables here; only one allowed
     constructor() public {
         // msg provides details about the message that's sent to the contract
         // msg.sender is contract caller (address of contract creator)

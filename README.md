@@ -4,10 +4,12 @@
 - `migrations/`: stores scripts used to deploy contracts to eth blockchain
 
 ## Applications
-1. SimpleStorage: Store a value on blockchain [[`contract`](./contracts/01_SimpleStorage.sol) [`client`](./clients/01.js)]
-2. PetAdoption: Adopt pet [[`contract`](./contracts/02_PetAdoption.sol) [`client`](./clients/02.js)]
-3. SimpleCoin: create a coin [[`contract`](./contracts/03_SimpleCoin.sol) [`client`](./clients/03.js)]
-4. SimpleBank: create a central bank [[`contract`](./contracts/04_SimpleBank.sol) [`client`](./clients/04.js)]
+1. SimpleStorage: Store and manipulating a value on blockchain [[`contract`](./contracts/01_SimpleStorage.sol) [`client`](./clients/01.js)]
+2. PetAdoption: Pet Adoption app on blockchain[[`contract`](./contracts/02_PetAdoption.sol) [`client`](./clients/02.js)]
+3. SimpleCoin: create a coin for yourself[[`contract`](./contracts/03_SimpleCoin.sol) [`client`](./clients/03.js)]
+4. SimpleBank: create a central bank on blockchain [[`contract`](./contracts/04_SimpleBank.sol) [`client`](./clients/04.js)]
+5. CrowdFund: A crowdfunding example (broadly similar to Kickstarter) [[`contract`](./contracts/05_CrowdFund.sol) [`client`](./clients/05.js)]
+6. Contnet Manage System [TODO]
 
 ## Deploy Contracts and test locally
 
@@ -28,6 +30,7 @@
     ```
 
 ## Good Readings
+- Useful Ðapp Patterns: https://github.com/ethereum/wiki/wiki/Useful-%C3%90app-Patterns
 - Web compiler `remix`: https://remix.ethereum.org/#version=builtin&optimize=false
 - Official solidity doc: http://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html
 - Learn X in Y minutes solidity: https://learnxinyminutes.com/docs/solidity/
@@ -36,6 +39,7 @@
 - About security: https://github.com/ConsenSys/smart-contract-best-practices/blob/master/README-zh.md
 - Other p2p solutions: https://github.com/kgryte/awesome-peer-to-peer
 - solidity-baby-steps(might be a little outdated): https://github.com/fivedogit/solidity-baby-steps
+
 
 ## Ideas
 ### Make writing dapp as easy as possible
