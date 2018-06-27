@@ -29,6 +29,11 @@
     ...
     ```
 
+## Sample DAPPs on the main chain
+- DAPP collection website: https://www.stateofthedapps.com/rankings
+- oracle and prediction market: https://www.augur.net/
+- Job Market Platform: https://ethlance.com/
+
 ## Good Readings
 - Useful Ðapp Patterns: https://github.com/ethereum/wiki/wiki/Useful-%C3%90app-Patterns
 - Web compiler `remix`: https://remix.ethereum.org/#version=builtin&optimize=false
@@ -40,7 +45,6 @@
 - Other p2p solutions: https://github.com/kgryte/awesome-peer-to-peer
 - solidity-baby-steps(might be a little outdated): https://github.com/fivedogit/solidity-baby-steps
 
-
 ## Ideas
 ### Make writing dapp as easy as possible
 better than truffle
@@ -50,4 +54,9 @@ better than truffle
 
 Is migrations script necessary?
 
-compiler: http://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html#solcjs
+compilers: web3; http://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html#solcjs
+
+### Decentrialized Github
+
+## Questions and Answers
+How to host content/app freely on decentrialized network? Currently facebook/github provide free content host and store, because they can get profit by ads etc to cover the cost. But on blockchain, hosting any content cost money, free users are a giant group, Is it possible to win them to blockchain?
